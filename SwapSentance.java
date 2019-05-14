@@ -13,7 +13,6 @@ public static void main(String args[]){
     for(int i=0; i<s_array.length; i++){
         s1=s_array[i]+" "+s1;
     }
-    
     System.out.println(s1);
 }    
 }
