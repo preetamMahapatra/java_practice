@@ -1,0 +1,14 @@
+public class FactorialJava{
+
+     public static void main(String []args){
+        
+        int factInput=2;
+        int fact=1;
+        
+        for(int initialValue=1; initialValue<=factInput; initialValue++){
+         fact=fact*initialValue;   
+        }
+        
+        System.out.println(fact);
+     }
+}
