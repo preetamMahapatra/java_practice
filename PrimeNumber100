@@ -1,0 +1,28 @@
+public class PrimeNumber100{
+
+     public static void main(String []args){
+       int a=0;
+       boolean prime=true;
+       int count=0;
+       
+       while(count<=100){
+           a++;
+       if(a==0||a==1){
+           prime=false;
+       }else{
+           for(int i=2;i<a/2;i++){
+               if(a%2==0){
+                   prime=false;
+                   break;
+               }
+           }
+       }
+       if(prime){
+           System.out.println("prime number");
+           count++;
+       }else{
+           System.out.println("not a prime number");
+       }
+       }
+     }
+}
